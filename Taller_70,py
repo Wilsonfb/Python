@@ -1,0 +1,26 @@
+#70. Programa que permita llenar una matriz cuadrada de 5 filas y 5 columnas y luego calcule la 
+#suma de los valores por encima y por debajo de su diagonal principal. 
+
+matriz = []
+
+for row_position in range(5):
+    row = []
+    for elements in range(5):
+        row.append(int(input(f"Elemento de la fila {row_position}: ")))
+    matriz.append(row)
+
+for row in matriz:
+    print(row)
+
+suma_u = 0
+suma_d = 0
+
+for row_position in range(5):
+    for elements in range(5):
+        if row_position < elements:
+            suma_u += matriz[row_position][elements]
+        elif row_position > elements:
+            suma_d += matriz[row_position][elements]
+
+print(f"\nLa suma de los valores por encima de la diagonal principal es: {suma_u}")
+print(f"La suma de los valores por debajo de la diagonal principal es: {suma_d}")
