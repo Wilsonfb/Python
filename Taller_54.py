@@ -1,4 +1,5 @@
-#
+#54. Programa que permita llenar un vector de 20 posiciones y luego determine cuantos son positivos, 
+#cuántos son negativos y cuantos son ceros
 
 vector = [0] * 20
 
