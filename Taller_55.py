@@ -1,3 +1,6 @@
+#55. Programa que permita llenar un vector de 20 posiciones y luego le pregunte al usuario cual 
+#posición desea ver en pantalla. 
+
 vector = []
 
 for i in range(20):
