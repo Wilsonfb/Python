@@ -1,5 +1,5 @@
-#
-
+##53. Programa que permita sumar todos los valores ingresados en un vector de 12 posiciones, los 
+#valores deben ser ingresados por el usuario. 
 vector = [0] * 12
 
 for i in range(12):
